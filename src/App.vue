@@ -1,7 +1,7 @@
 <script setup>
   import {ref, computed, onMounted} from 'vue'
   import Header from './components/Header.vue'
-  import Balance from './components/Balance.vue'
+  import Balance from '.components/Balace.vue'
   import IncomeExpenses from './components/IncomeExpenses.vue';
   import AddTransaction from './components/AddTransaction.vue';
   import TransactionList from './components/TransactionList.vue';
