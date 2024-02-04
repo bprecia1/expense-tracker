@@ -76,7 +76,7 @@
 <template>
   <Header />
   <div class="container">
-    <Balance :total="+total"></Balance>
+    <Balance :total="+total"> </Balance>
     <IncomeExpenses :income="+income" :expense="+expense"></IncomeExpenses>
     <TransactionList :transactions="transactions" @transactionDeleted="handleTransactionsDeleted"></TransactionList>
     <AddTransaction @transactionSubmitted="handleTransactionSubmitted"></AddTransaction>
