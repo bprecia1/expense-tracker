@@ -46,7 +46,7 @@
     saveTransactionsToLocalStorage()
   }
 
-  //generate unique ids
+
   const generateUniqueId = () => {
     return Math.floor(Math.random() * 10000000)
   }
