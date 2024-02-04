@@ -6,14 +6,7 @@
   import AddTransaction from './components/AddTransaction.vue';
   import TransactionList from './components/TransactionList.vue';
   const transactions = ref([])
-  // const transactions = ref([
-  //   {id: 1, text: 'Flowers', amount: -19.99},
-  //   {id: 2, text: 'Salary', amount: 299.99},
-  //   {id: 3, text: 'Book', amount: -25.99},
-  //   {id: 4, text: 'Camera', amount: 250},
-  // ])
-
-  //get total 
+ 
   const total = computed(() => {
     return transactions.value.reduce( (acc, transaction) => {
       return acc + transaction.amount
