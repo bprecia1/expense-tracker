@@ -6,7 +6,7 @@
             <p id="money-plus" class="money plus">+${{ income }}</p>
         </div>
         <div>
-            <h4>Expense</h4>
+            <h4>Expenses</h4>
             <p id="money-minus" class="money minus">-${{ expense }}</p>
         </div>
     </div>
